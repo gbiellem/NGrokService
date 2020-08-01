@@ -1,11 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ngrokservice", "ngrokservice\ngrokservice.csproj", "{89BFB6F0-D4BB-4676-98D6-D1DF37C58DFD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E1CCB596-9C33-49EA-8E80-5CB45A23D1AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +14,6 @@ Global
 		{89BFB6F0-D4BB-4676-98D6-D1DF37C58DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89BFB6F0-D4BB-4676-98D6-D1DF37C58DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89BFB6F0-D4BB-4676-98D6-D1DF37C58DFD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E1CCB596-9C33-49EA-8E80-5CB45A23D1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1CCB596-9C33-49EA-8E80-5CB45A23D1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1CCB596-9C33-49EA-8E80-5CB45A23D1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1CCB596-9C33-49EA-8E80-5CB45A23D1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,4 +22,3 @@ Global
 		SolutionGuid = {84E702E4-B127-4DB9-BE11-F8634FC7AD06}
 	EndGlobalSection
 EndGlobal
-
