@@ -47,14 +47,11 @@ public class NGrokWrapper : IHostedService, IHostApplicationLifetime
         {
             Log.Error(args.Data);
         };
-    
         if (!p.Start())
         {
             throw new Exception($"NGrok failed to start: {p.ExitCode}");
         }
-
         Log.Information($"NGrok running as Pid: {p.Id}");
-        
         return Task.CompletedTask;
     }
 
